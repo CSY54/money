@@ -1,0 +1,73 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+  color: white;
+  font-weight: 800;
+  font-size: 4rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+.subtitle {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+hr.content-divider {
+  max-width: 75px;
+  height: 5px;
+}
+
+#parallax-0 {
+  background: url("img/0.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax-1 {
+  background: url("img/1.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid coral;
+}
+
+#parallax-1 hr {
+  background: coral;
+}
+
+#parallax-2 {
+  background: url("img/2.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid yellow;
+}
+
+#parallax-2 hr {
+  background: yellow;
+}
+
+#parallax-3 {
+  background: url("img/3.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid hotpink;
+}
+
+#parallax-3 hr {
+  background: hotpink;
+}
+
+.label {
+  color: white;
+}
